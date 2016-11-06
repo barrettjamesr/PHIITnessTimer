@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:id="@+id/whole_layout"
+    tools:context="com.jrb.phiitnesstimer.RunningFGB">
+
+    <LinearLayout
+        android:id="@+id/container_time_display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/TitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_FGB"
+            android:id="@+id/lblTitle" />
+
+        <TextView
+            style="@style/TimeDisplayStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_start_time"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/lblTimeDisplay" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/RoundDisplayStyle_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_exercises"
+                android:id="@+id/lblExercises" />
+
+            <TextView
+                style="@style/RoundNumStyle_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_start_rounds"
+                android:id="@+id/lblExerciseNum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/RoundDisplayStyle_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_rounds"
+                android:id="@+id/lblRounds" />
+
+            <TextView
+                style="@style/RoundNumStyle_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_start_rounds"
+                android:id="@+id/lblRoundNum" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        style="@style/StopButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/btnStop" />
+
+</LinearLayout>

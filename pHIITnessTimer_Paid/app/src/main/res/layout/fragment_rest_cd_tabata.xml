@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.jrb.phiitnesstimer.RestCD_Tabata">
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/TimeDisplayStyle"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/countdownDisplay"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/top_spacing_margin"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                style="@style/DialogStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/repsLabel"
+                android:text="@string/label_reps_completed"
+                />
+            <EditText
+                style="@style/RepsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/repsCompleted"
+                android:hint="@string/text_reps"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

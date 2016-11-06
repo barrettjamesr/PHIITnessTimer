@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">pHIITness Timer</string>
+    <string name="version">Version:\u0020</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="PHIIT_Prefs">preferences_file</string>
+    <string name="coming_soon">Hey, sorry, this function isn\'t ready yet. \nWorking really hard on it! PROMISE! \nYou\'ll be able to experience it in all its awesomeness soon!</string>
+
+    <!--Colours-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFAA0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_background">#FF444444</color>
+    <color name="tab_text">#FFaaaaaa</color>
+    <color name="background_grey">#FF888888</color>
+    <color name="color_countdown_num">#FF000000</color>
+    <color name="color_stop_background">#FFAA0000</color>
+    <color name="list_pressed_color">#FFFF0000</color>
+    <color name="list_selected_color">#FFAA0000</color>
+    <color name="list_default_color">#00000000</color>
+
+    <!--String Formats-->
+    <string name="format_date_iso">YYYY-MM-DD</string>
+
+    <!--Titles-->
+    <string name="nav_new">New</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_archive">Archive</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_help">Help</string>
+    <string name="title_RFT">Rounds For Time</string>
+    <string name="title_AMRAP">AMRAP Timer</string>
+    <string name="title_AMRAPrepeats">AMRAP Repeats</string>
+    <string name="title_tabata">Tabata Timer</string>
+    <string name="title_FGB">Circuit Timer</string>
+    <string name="title_EMOM">EMOM Timer</string>
+    <string name="title_workout_details">Workout Details</string>
+    <string name="title_start_countdown">Starting in:</string>
+    <string name="title_rest_countdown">Rest time remaining:</string>
+    <string name="title_change_volume">Volume Level:\u0020</string>
+
+    <!--Labels-->
+    <string name="label_loading">Loading \@#8230</string>
+    <string name="label_select_saved">Select from your saved workouts:</string>
+    <string name="label_workout_name">Workout Name</string>
+    <string name="label_last_used">Last Used</string>
+    <string name="label_rounds">Round #</string>
+    <string name="label_cycles">Cycle #</string>
+    <string name="label_exercises">Exercise #</string>
+    <string name="label_rest_period">Rest Period</string>
+    <string name="label_rounds_completed">Rounds completed:\u0020</string>
+    <string name="label_workout">Workout:\u0020</string>
+    <string name="label_work_time">Work time:\u0020</string>
+    <string name="label_rest_time">Rest time:\u0020</string>
+    <string name="label_exercises_completed">Exercises completed:\u0020</string>
+    <string name="label_total_cycles_completed">Total cycles completed:\u0020</string>
+    <string name="label_date">Date</string>
+    <string name="label_select_archive">Select from your past workouts:</string>
+    <string name="label_workout_defaults">Default settings for new workouts:</string>
+    <string name="label_defaults_saved">Defaults Saved</string>
+    <string name="label_error">Something went wrong \nMaybe try again later?</string>
+    <string name="label_reps_completed">Reps Completed:\u0020</string>
+    <string name="label_total_reps">Total Reps:\u0020</string>
+
+    <!--Check Boxes-->
+    <string name="check_sound_volume">Sound Volume</string>
+    <string name="check_starting_CD">Starting countdown</string>
+    <string name="check_time_cap">Time cap</string>
+    <string name="check_rest_round">Rest per round</string>
+    <string name="check_time_warning">Time warning</string>
+    <string name="check_count_UD">Count down/up</string>
+    <string name="check_time_cap_cycle">Time cap per cycle</string>
+    <string name="check_number_cycles">Number of cycles</string>
+    <string name="check_rest_per_cycle">Rest per cycle</string>
+    <string name="check_reset_rounds">Round count</string>
+    <string name="check_time_cap_round">Time cap per round</string>
+    <string name="check_rest_per_round">Rest per round</string>
+    <string name="check_rounds_per_exercise">Rounds per exercise</string>
+    <string name="check_number_exercises">Number of exercises</string>
+    <string name="check_time_cap_exercises">Time cap per exercise</string>
+    <string name="check_number_rounds">Number of rounds</string>
+    <string name="check_mandatory">\u0020*</string>
+
+    <!--Button Names-->
+    <string name="action_delete">Delete</string>
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_start">Start!</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_stop_land">S\nT\nO\nP</string>
+    <string name="action_save_template">Save workout as template</string>
+    <string name="action_back_main">Back to main menu</string>
+    <string name="action_save">Save</string>
+    <string name="action_details">Details</string>
+    <string name="action_undo">Undo changes</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_okay">OK</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!--Text Fillers-->
+    <string name="text_custom_name">Custom workout name</string>
+    <string name="text_reps">reps</string>
+    <string name="text_mins">mm</string>
+    <string name="text_secs">ss</string>
+    <string name="text_colon"> : </string>
+    <string name="text_of">\u0020/\u0020 </string>
+    <string name="text_start_time">00:00.0</string>
+    <string name="text_start_rounds">00</string>
+    <string name="text_running_prefix">Running</string>
+    <string name="text_repeats_suffix">repeats</string>
+    <string name="text_repeats_replace">\u0020 R</string>
+    <string name="text_round_prefix">Round\u0020</string>
+    <string name="text_cycle_prefix">Cycle\u0020</string>
+    <string name="text_exercise_prefix">Exercise\u0020</string>
+    <string name="text_workout_prefix">Workout\u0020</string>
+
+    <!--Toasts-->
+    <string name="toast_mandatory">Mandatory Field</string>
+    <string name="toast_valid_zero">\u0020 must be greater than zero</string>
+
+
+    <!--Help Text-->
+    <string name="help_app">pHIITness Timer is a Personal High Intensity Interval Training (PHIIT) stopwatch designed for those training without a coach or a buddy watching the clock and cheering you on. It has six different timers, designed to cover the typical Crossfit WODs. If you come across a WOD style we haven\'t covered, please let us know! </string>
+    <string name="help_email">Any questions or comments, please contact us at phiitness.timer@gmail.com</string>
+    <string name="help_workout_types">Workout Types</string>
+    <string name="help_RFT_head">Rounds For Time (RFT)</string>
+    <string name="help_RFT">Continuously running timer. Can be used for chippers or doing multiple rounds of the same workout. Maximum time is 99 mins, 99 secs. What sort of hero are you doing 2 hour workouts, anyway? If you want a time reminder, set the optional counter and it will buzz every few minutes to keep you focussed on the task at hand.</string>
+    <string name="help_AMRAP_head">As Many Rounds As Possible (AMRAP)</string>
+    <string name="help_AMRAP">Countdown timer from set time. Complete as many rounds as possible of your workout in the allotted time. Optional time warning buzzer, so you know when it\'s time for beast mode. Maximum time again 99 mins, but no limit on the number of rounds you can record, so go nuts on Cindy. Question now is, have you got 30+ rounds in you?</string>
+    <string name="help_AMRAPrepeats_head">AMRAP Repeats</string>
+    <string name="help_AMRAPrepeats">Repeated countdown timer, with optional rest periods. Similar to above, but multiple times. Perfect for smashing \"The Chief\". Will count you in for each AMRAP section and buzz you when it\'s rest time. Unless you don\'t want to rest? Go hard or go home huh?</string>
+    <string name="help_tabata_head">Tabata</string>
+    <string name="help_tabata">Professor Izumi Tabata\'s circuit training regime has been kicking athletes\' butts since 1996. Whether you\'re a pro or an amateur, test yourself with this timer alternating between work and rest, then feel the burn!</string>
+    <string name="help_FGB_head">Circuits / Fight Gone Bad (FGB)</string>
+    <string name="help_FGB">Aptly named \“Fight gone bad\”, these workouts consist of multiple work cycles followed by a rest cycle per round. You rotate between exercises to tally up reps with a set time per exercise. The clock doesn\'t stop between exercises although you may end up wanting to!</string>
+    <string name="help_EMOM_head">Every Minute On the Minute (EMOM)</string>
+    <string name="help_EMOM">\Workout scored by the number of rounds completed. Do set tasks within your repeating time frame, and then relax for the remainder. Can also be used for "death by increasing reps" workouts. "Death by burpees" not recommended- they can really really suck!</string>
+    <string name="help_additional_functions">Additional Functions</string>
+    <string name="help_rounds_head">Round Counting</string>
+    <string name="help_rounds">For workouts with rounds of varying times, (\"For time\", AMRAP, AMRAP Repeats) touch anywhere on the screen with one finger (except the STOP button, obviously) to register a round.  When you have finished your workout, hit the STOP button. This can also be used for buy-in or cash out in \"Rounds for Time\" workouts. If your phone isn\'t waterproof, try not to drown it in liquid awesome (aka perspiration). Also, there\'s no Rx weight for slapping your phone. It\'s kind of delicate and won\'t appreciate tough love.</string>
+    <string name="help_reps_head">Rep Counting</string>
+    <string name="help_reps">For tabata and circuit workouts with rest periods you have the option to enter the number of reps completed for each cycle. Who wants to do maths when you\'ve only the energy for sweat angels? When you\'re done, reps per exercise and total reps will be tallied for you.</string>
+    <string name="help_saved_head">Preset Workout Details</string>
+    <string name="help_saved_workouts">Got a favourite workout you like to do over and over? Kind of against the spirit of \"constantly varied\" but we get it, everyone has their favourite girl. The one you go to on those cold lonely mornings in the box when you just don\'t want to think. Save your workouts so you can load the preset settings quickly and get on with your training- no fuss!</string>
+    <string name="help_archive_head">Archived Time Splits</string>
+    <string name="help_workout_archive">Forgot to log your workout in your favourite tracker before it got wiped off the whiteboard? No problems, check your recent workout history including number of rounds completed and time splits per round. Only downside is that now your mates can ask for proof when you\'ve claimed a sub 3\" Fran!</string>
+
+    <!-- Strings for Shared Preferences -->
+    <string name="PrefVersion">PrefVersion</string>
+    <string name="CheckStartingCD">CheckStartingCD</string>
+    <string name="DefStartingCD">DefStartingCD</string>
+    <string name="ValStartingCD">ValStartingCD</string>
+    <string name="CheckTimeCap">CheckTimeCap</string>
+    <string name="DefTimeCap">DefTimeCap</string>
+    <string name="ValTimeCap">ValTimeCap</string>
+    <string name="CheckRFTRounds">CheckRFTRounds</string>
+    <string name="DefRFTRounds">DefRFTRounds</string>
+    <string name="ValRFTRounds">ValRFTRounds</string>
+    <string name="CheckRestRounds">CheckRestRounds</string>
+    <string name="DefRestRounds">DefRestRounds</string>
+    <string name="ValRestRounds">ValRestRounds</string>
+    <string name="CheckTimeWarning">CheckTimeWarning</string>
+    <string name="DefTimeWarning">DefTimeWarning</string>
+    <string name="ValTimeWarning">ValTimeWarning</string>
+    <string name="CheckCountUD">CheckCountUD</string>
+    <string name="DefCountUD">DefCountUD</string>
+    <string name="ValCountUD">ValCountUD</string>
+    <string name="CheckTimeCapCycles">CheckTimeCapCycles</string>
+    <string name="DefTimeCapCycles">DefTimeCapCycles</string>
+    <string name="ValTimeCapCycles">ValTimeCapCycles</string>
+    <string name="CheckNumberCycles">CheckNumberCycles</string>
+    <string name="DefNumberCycles">DefNumberCycles</string>
+    <string name="ValNumberCycles">ValNumberCycles</string>
+    <string name="CheckRestCycles">CheckRestCycles</string>
+    <string name="DefRestCycles">DefRestCycles</string>
+    <string name="ValRestCycles">ValRestCycles</string>
+    <string name="CheckResetRounds">CheckResetRounds</string>
+    <string name="DefResetRounds">DefResetRounds</string>
+    <string name="ValResetRounds">ValResetRounds</string>
+    <string name="CheckTabataTimeCap">CheckTabataTimeCap</string>
+    <string name="DefTabataTimeCap">DefTabataTimeCap</string>
+    <string name="ValTabataTimeCap">ValTabataTimeCap</string>
+    <string name="CheckTabataRest">CheckTabataRest</string>
+    <string name="DefTabataRest">DefTabataRest</string>
+    <string name="ValTabataRest">ValTabataRest</string>
+    <string name="CheckTabataRounds">CheckTabataRounds</string>
+    <string name="DefTabataRounds">DefTabataRounds</string>
+    <string name="ValTabataRounds">ValTabataRounds</string>
+    <string name="CheckTabataExercises">CheckTabataExercises</string>
+    <string name="DefTabataExercises">DefTabataExercises</string>
+    <string name="ValTabataExercises">ValTabataExercises</string>
+    <string name="CheckFGBTimeCap">CheckFGBTimeCap</string>
+    <string name="DefFGBTimeCap">DefFGBTimeCap</string>
+    <string name="ValFGBTimeCap">ValFGBTimeCap</string>
+    <string name="CheckFGBRest">CheckFGBRest</string>
+    <string name="DefFGBRest">DefFGBRest</string>
+    <string name="ValFGBRest">ValFGBRest</string>
+    <string name="CheckFGBRounds">CheckFGBRounds</string>
+    <string name="DefFGBRounds">DefFGBRounds</string>
+    <string name="ValFGBRounds">ValFGBRounds</string>
+    <string name="CheckFGBExercises">CheckFGBExercises</string>
+    <string name="DefFGBExercises">DefFGBExercises</string>
+    <string name="ValFGBExercises">ValFGBExercises</string>
+    <string name="CheckEMOMTime">CheckEMOMTime</string>
+    <string name="DefEMOMTime">DefEMOMTime</string>
+    <string name="ValEMOMTime">ValEMOMTime</string>
+    <string name="CheckEMOMCycles">CheckEMOMCycles</string>
+    <string name="DefEMOMCycles">DefEMOMCycles</string>
+    <string name="ValEMOMCycles">ValEMOMCycles</string>
+    <string name="CheckSoundVolume">CheckSoundVolume</string>
+    <string name="SoundVolume">SoundVolume</string>
+
+    <!-- OnDestroy variables-->
+    <string name="has_started">HasStarted</string>
+    <string name="on_rest">OnRestCD</string>
+    <string name="on_starting_cd">OnStartCD</string>
+    <string name="current_round">CurrentRound</string>
+    <string name="current_cycle">CurrentCycle</string>
+    <string name="current_exercise">CurrentExercise</string>
+    <string name="current_rest">CurrentRest</string>
+    <string name="current_start">CurrentStart</string>
+    <string name="time_splits">TimeSplits</string>
+    <string name="rep_count">RepCount</string>
+
+    <!-- Bundle variables-->
+    <string name="bundle_workout_number">WorkoutNumber</string>
+    <string name="bundle_goto_archive">GoToArchive</string>
+    <string name="bundle_rest_round">RestRound</string>
+    <string name="bundle_volume">Volume</string>
+
+    <!-- Arrays for spinners-->
+    <string-array name="array_startingCD">
+        <item>1</item> //0
+        <item>2</item> //1
+        <item>3</item> //2
+        <item>4</item> //3
+        <item>5</item> //4
+        <item>10</item> //5
+        <item>12</item> //6
+        <item>15</item> //7
+        <item>20</item> //8
+    </string-array>
+
+    <string-array name="array_rounds">
+        <item>1</item> //0
+        <item>2</item> //1
+        <item>3</item> //2
+        <item>4</item> //3
+        <item>5</item> //4
+        <item>6</item> //
+        <item>7</item> //
+        <item>8</item> //
+        <item>9</item> //
+        <item>10</item> //
+        <item>11</item> //
+        <item>12</item> //
+        <item>13</item> //
+        <item>14</item> //
+        <item>15</item> //
+        <item>16</item> //
+        <item>17</item> //
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="array_countUD">
+        <item>Down</item> //0
+        <item>Up</item> //1
+    </string-array>
+
+    <string-array name="array_reset_rounds">
+        <item>Reset Rounds</item> //0
+        <item>Continue</item> //1
+    </string-array>
+
+    <string-array name="array_number_cycles">
+        <item>1</item> //0
+        <item>2</item> //1
+        <item>3</item> //2
+        <item>4</item> //3
+        <item>5</item> //4
+        <item>6</item> //
+        <item>7</item> //
+        <item>8</item> //
+        <item>9</item> //
+        <item>10</item> //
+        <item>11</item> //
+        <item>12</item> //
+        <item>13</item> //
+        <item>14</item> //
+        <item>15</item> //
+        <item>16</item> //
+        <item>17</item> //
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="array_workout_types">
+        <item>RFT</item> //0
+        <item>AMRAP</item> //1
+        <item>AMRAP R</item> //2
+        <item>Tabata</item> //3
+        <item>FGB</item> //4
+        <item>EMOM</item> //5
+    </string-array>
+
+    <string-array name="array_display_one">
+        <item>RFT</item> //0
+        <item>AMRAP</item> //1
+        <item>AMRAP R</item> //2
+    </string-array>
+
+    <string-array name="array_display_two">
+        <item>Tabata</item> //0
+        <item>FGB</item> //1
+        <item>EMOM</item> //2
+    </string-array>
+
+    <!--Activity Names-->
+    <string name="title_activity_new_timer">New Timer</string>
+    <string name="title_activity_saved_timers">Saved Timers</string>
+    <string name="title_activity_setup_rft">Setup RFT</string>
+    <string name="title_activity_running_rft">Running RFT</string>
+    <string name="title_activity_display_type_one">Display 1</string>
+    <string name="title_activity_setup_amrap">Setup AMRAP</string>
+    <string name="title_activity_running_amrap">Running AMRAP</string>
+    <string name="title_activity_setup_amraprepeats">Setup AMRAP Repeats</string>
+    <string name="title_activity_running_amraprepeats">Running AMRAP repeats</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_archive">Archive</string>
+    <string name="title_activity_setup_tabata">SetupTabata</string>
+    <string name="title_activity_running_tabata">RunningTabata</string>
+    <string name="title_activity_display_type_two">DisplayTypeTwo</string>
+    <string name="title_activity_setup_fgb">Setup FGB</string>
+    <string name="title_activity_running_fgb">Running FGB</string>
+    <string name="title_activity_setup_emom">Setup EMOM</string>
+    <string name="title_activity_running_emom">Running EMOM</string>
+
+</resources>

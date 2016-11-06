@@ -1,0 +1,245 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@color/background_grey</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TabStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/title_sizes</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin</item>
+        <item name="android:layout_marginLeft">@dimen/left_spacing_margin</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:button">@drawable/check_box</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:paddingLeft">@dimen/check_padding_left</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="RoundDisplayStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/round_num_sizes</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_spacing_margin_land</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin_land</item>
+        <item name="android:layout_marginLeft">@dimen/left_spacing_margin</item>
+    </style>
+
+    <style name="RoundDisplayStyle_land" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/round_num_sizes_land</item>
+        <item name="android:paddingTop">@dimen/text_padding_land</item>
+        <item name="android:paddingBottom">@dimen/text_padding_land</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_spacing_margin_land</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin_land</item>
+        <item name="android:layout_marginLeft">@dimen/left_spacing_margin_land</item>
+    </style>
+
+    <style name="RoundNumStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/round_num_sizes</item>
+        <item name="android:layout_alignTop">@+id/lblRounds</item>
+        <item name="android:layout_toEndOf">@+id/lblRounds</item>
+        <item name="android:layout_marginLeft">@dimen/text_rounds_left_margin</item>
+    </style>
+
+    <style name="RoundNumStyle_land" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/round_num_sizes_land</item>
+        <item name="android:paddingTop">@dimen/text_padding_land</item>
+        <item name="android:paddingBottom">@dimen/text_padding_land</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin_land</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_spacing_margin_land</item>
+        <item name="android:layout_marginLeft">@dimen/text_rounds_left_margin</item>
+    </style>
+
+    <style name="TimeDisplayStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/time_display_sizes</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dialog_spacing_margin</item>
+    </style>
+
+    <style name="TimeDisplayStyle_land" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/time_display_sizes_land</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">@dimen/text_padding_land</item>
+        <item name="android:paddingBottom">@dimen/text_padding_land</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin_land</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_spacing_margin_land</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="TitleStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/title_sizes</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TitleStyle_land" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/title_sizes_land</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">@dimen/text_padding_land</item>
+        <item name="android:paddingBottom">@dimen/text_padding_land</item>
+        <item name="android:layout_marginTop">@dimen/title_margin_land</item>
+        <item name="android:layout_marginLeft">@dimen/left_spacing_margin_land</item>
+    </style>
+
+    <style name="LabelStyle" parent="android:Widget.TextView">
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin</item>
+    </style>
+
+    <style name="DialogStyle" parent="android:Widget.TextView">
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:textSize">@dimen/dialog_sizes</item>
+    </style>
+
+    <style name="HelpTextHeadStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_sizes</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">@dimen/left_text_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_text_margin</item>
+    </style>
+
+    <style name="HelpTextStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_sizes</item>
+        <item name="android:layout_marginLeft">@dimen/left_text_margin</item>
+    </style>
+
+    <style name="ColonStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:text">@string/text_colon</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:minWidth">@dimen/left_text_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="ListStyle" parent="android:Widget.ListView">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:layout_marginTop">@dimen/dialog_spacing_margin</item>
+    </style>
+
+    <style name="DisplayListStyle" parent="android:Widget.ListView">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:paddingRight">@dimen/list_side_padding</item>
+        <item name="android:paddingLeft">@dimen/list_side_padding</item>
+        <item name="android:layout_marginTop">@dimen/dialog_spacing_margin</item>
+    </style>
+
+    <style name="ListTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/list_text_sizes</item>
+        <item name="android:padding">@dimen/list_text_padding</item>
+    </style>
+
+    <style name="VolumeStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:layout_marginLeft">@dimen/left_text_margin</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="TimeEntryStyle" parent="android:Widget.EditText">
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_marginLeft">@dimen/left_text_margin</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="RepsStyle" parent="android:Widget.EditText">
+        <item name="android:textSize">@dimen/dialog_sizes</item>
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:paddingTop">@dimen/top_text_padding</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/spinner_right_margin</item>
+        <item name="android:minWidth">@dimen/spinner_width</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Button">
+        <item name="android:layout_marginTop">@dimen/button_top_margin</item>
+        <item name="android:textSize">@dimen/btn_text_sizes</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="MenuButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_shape_new_timer</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">@dimen/top_spacing_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/label_sizes</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">110dp</item>
+    </style>
+
+    <style name="StopButtonStyle" parent="android:Widget.Button">
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:textSize">@dimen/stop_button_text</item>
+        <item name="android:text">@string/action_stop</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_shape_stop</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StopButtonStyle_land" parent="android:Widget.Button">
+        <item name="android:paddingLeft">@dimen/edit_text_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_padding</item>
+        <item name="android:textSize">@dimen/stop_button_text_land</item>
+        <item name="android:text">@string/action_stop_land</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_shape_stop</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

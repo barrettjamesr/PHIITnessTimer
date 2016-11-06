@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.jrb.phiitnesstimer.SetupFGB">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/title_FGB"
+            android:id="@+id/lblTitle" />
+
+        <!-- Optional Starting Countdown -->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_starting_CD"
+            android:id="@+id/chkStartingCD" />
+        <Spinner
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/chkStartingCD"
+            android:id="@+id/spinStartingCD" />
+
+        <!-- Mandatory Time Cap-->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/chkStartingCD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_time_cap_round"
+            android:id="@+id/chkTimeCapRound" />
+        <EditText
+            style="@style/TimeEntryStyle"
+            android:layout_alignTop="@+id/chkTimeCapRound"
+            android:layout_width="@dimen/text_box_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_mins"
+            android:layout_marginEnd="@dimen/text_mins_right_margin"
+            android:id="@+id/txtTimeCapRoundMins" />
+        <TextView
+            style="@style/ColonStyle"
+            android:layout_alignTop="@+id/chkTimeCapRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/label_colon_right_margin"
+            android:id="@+id/lblTimeCapRoundColon" />
+        <EditText
+            style="@style/TimeEntryStyle"
+            android:layout_alignTop="@+id/chkTimeCapRound"
+            android:layout_width="@dimen/text_box_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_secs"
+            android:layout_marginEnd="@dimen/text_secs_right_margin"
+            android:id="@+id/txtTimeCapRoundSecs" />
+
+        <!-- Mandatory Number of Exercises -->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/chkTimeCapRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_number_exercises"
+            android:id="@+id/chkNumberExercises" />
+        <Spinner
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/chkNumberExercises"
+            android:id="@+id/spinNumberExercises" />
+
+        <!-- Optional Rest per Round-->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/chkNumberExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_rest_per_round"
+            android:id="@+id/chkRestRound" />
+        <EditText
+            style="@style/TimeEntryStyle"
+            android:layout_alignTop="@+id/chkRestRound"
+            android:layout_width="@dimen/text_box_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_mins"
+            android:layout_marginEnd="@dimen/text_mins_right_margin"
+            android:id="@+id/txtRestRoundMins" />
+        <TextView
+            style="@style/ColonStyle"
+            android:layout_alignTop="@+id/chkRestRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/label_colon_right_margin"
+            android:id="@+id/lblRestRoundColon" />
+        <EditText
+            style="@style/TimeEntryStyle"
+            android:layout_alignTop="@+id/chkRestRound"
+            android:layout_width="@dimen/text_box_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_secs"
+            android:layout_marginEnd="@dimen/text_secs_right_margin"
+            android:id="@+id/txtRestRoundSecs" />
+
+        <!-- Mandatory Number of Rounds -->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/chkRestRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_number_rounds"
+            android:id="@+id/chkNumberRounds" />
+        <Spinner
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/chkNumberRounds"
+            android:id="@+id/spinNumberRounds" />
+
+        <!-- Mandatory Count Up or Down-->
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:layout_below="@+id/chkNumberRounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_count_UD"
+            android:id="@+id/chkCountUD" />
+        <Spinner
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/chkCountUD"
+            android:id="@+id/spinCountUD" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_below="@+id/chkCountUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_start"
+            android:id="@+id/btnStart"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>

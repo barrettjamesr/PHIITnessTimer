@@ -1,0 +1,202 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.jrb.phiitnesstimer.MainActivity">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/lblTitle" />
+
+        <!-- Version and Description -->
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:id="@+id/lblVersion" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_app"
+            android:id="@+id/lblDescription" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_email"
+            android:id="@+id/lblHelpEmail" />
+
+        <!-- Workout Types-->
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_workout_types"
+            android:id="@+id/lblWorkouts" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_RFT_head"
+            android:id="@+id/lblHelpRFTHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_RFT"
+            android:id="@+id/lblHelpRFT" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_AMRAP_head"
+            android:id="@+id/lblHelpAMRAPHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_AMRAP"
+            android:id="@+id/lblHelpAMRAP" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_AMRAPrepeats_head"
+            android:id="@+id/lblHelpAMRAPrepeatsHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_AMRAPrepeats"
+            android:id="@+id/lblHelpAMRAPrepeats" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_tabata_head"
+            android:id="@+id/lblHelpTabataHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_tabata"
+            android:id="@+id/lblHelpTabata" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_FGB_head"
+            android:id="@+id/lblHelpFGBHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_FGB"
+            android:id="@+id/lblHelpFGB" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_EMOM_head"
+            android:id="@+id/lblHelpEMOMHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_EMOM"
+            android:id="@+id/lblHelpEMOM" />
+
+        <!-- Additional Functions -->
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_additional_functions"
+            android:id="@+id/lblAdditionalFunctions" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_rounds_head"
+            android:id="@+id/lblHelpRoundsHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_rounds"
+            android:id="@+id/lblHelpRounds" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_reps_head"
+            android:id="@+id/lblHelpRepsHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_reps"
+            android:id="@+id/lblHelpReps" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_saved_head"
+            android:id="@+id/lblHelpSavedHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_saved_workouts"
+            android:id="@+id/lblHelpSaved" />
+
+        <TextView
+            style="@style/HelpTextHeadStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_archive_head"
+            android:id="@+id/lblHelpArchiveHead" />
+
+        <TextView
+            style="@style/HelpTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_workout_archive"
+            android:id="@+id/lblHelpWorkoutArchive" />
+
+    </LinearLayout>
+</ScrollView>

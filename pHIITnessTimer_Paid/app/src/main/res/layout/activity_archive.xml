@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jrb.phiitnesstimer.Archive">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/lblTitle" />
+
+    <TextView
+        style="@style/LabelStyle"
+        android:layout_below="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_select_archive"
+        android:id="@+id/lblSelectArchive" />
+
+    <ListView
+        style="@style/ListStyle"
+        android:layout_below="@+id/lblSelectArchive"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/listArchivedWorkouts" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_below="@+id/listArchivedWorkouts"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/action_details"
+        android:id="@+id/btnDetails"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

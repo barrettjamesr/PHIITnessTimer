@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jrb.phiitnesstimer_paid">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetupRFT"
+            android:label="@string/title_activity_setup_rft"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningRFT"
+            android:label="@string/title_activity_running_rft" >
+        </activity>
+        <activity
+            android:name=".SetupAMRAP"
+            android:label="@string/title_activity_setup_amrap"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningAMRAP"
+            android:label="@string/title_activity_running_amrap" >
+        </activity>
+        <activity
+            android:name=".SetupAMRAPrepeats"
+            android:label="@string/title_activity_setup_amraprepeats"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningAMRAPrepeats"
+            android:label="@string/title_activity_running_amraprepeats" >
+        </activity>
+        <activity
+            android:name=".SetupTabata"
+            android:label="@string/title_activity_setup_tabata"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningTabata"
+            android:label="@string/title_activity_running_tabata" >
+        </activity>
+        <activity
+            android:name=".SetupFGB"
+            android:label="@string/title_activity_setup_fgb"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningFGB"
+            android:label="@string/title_activity_running_fgb" >
+        </activity>
+        <activity
+            android:name=".SetupEMOM"
+            android:label="@string/title_activity_setup_emom"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RunningEMOM"
+            android:label="@string/title_activity_running_emom" >
+        </activity>
+        <activity
+            android:name=".DisplayTypeOne"
+            android:label="@string/title_activity_display_type_one"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DisplayTypeTwo"
+            android:label="@string/title_activity_display_type_two"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

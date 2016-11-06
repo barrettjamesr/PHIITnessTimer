@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jrb.phiitnesstimer.MainActivity">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/lblTitle" />
+
+    <LinearLayout
+        android:id="@+id/ButtonRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/lblTitle">
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_RFT"
+            android:text="@string/title_RFT"/>
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_Tabata"
+            android:text="@string/title_tabata"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ButtonRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/ButtonRow1">
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_AMRAP"
+            android:text="@string/title_AMRAP"/>
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_FGB"
+            android:text="@string/title_FGB"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ButtonRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/ButtonRow2">
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_AMRAPrepeats"
+            android:text="@string/title_AMRAPrepeats"/>
+        <Button
+            style="@style/MenuButtonStyle"
+            android:id="@+id/imageButton_EMOM"
+            android:text="@string/title_EMOM"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
